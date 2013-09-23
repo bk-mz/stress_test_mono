@@ -41,6 +41,7 @@
     <Compile Include="redux.cs" />
     <Compile Include="nukleotide.cs" />
     <Compile Include="regex_dna.cs" />
+    <Compile Include="spectral_norm_single_threaded.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>

@@ -165,9 +165,10 @@ namespace domain_dll.SpectralNorms
 				}
 			}
 			/* multiply vector v by matrix A and then by matrix A transposed */
-			private void MultiplyAtAv(double[] v, double[] tmp, double[] AtAv)
+			private void MultiplyAtAv (double[] v, double[] tmp, double[] AtAv)
 			{
-				MultiplyAv(v, tmp);
+				MultiplyAv (v, tmp);
+				#warning Race detected here! (ObjectExposedException)
 				Barrier.WaitOne();
 
 				MultiplyAtv(tmp, AtAv);

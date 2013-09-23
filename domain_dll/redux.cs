@@ -65,6 +65,7 @@ namespace domain_dll.Redux
 			return true;
 		}
 
+#warning "Infinite loop detected here!"
 		long CountFlips()
 		{
 			long flips = 1;

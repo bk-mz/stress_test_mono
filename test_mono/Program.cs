@@ -31,7 +31,7 @@ namespace test_mono
 		const int TASK_COOLDOWN_DELTA = 200;
 		static readonly Dictionary<GameType, string> ClassPath = new Dictionary<GameType, string> {
  { GameType.Redux, "domain_dll.Redux.Game" },
- { GameType.SpectralGames, "domain_dll.SpectralNorms.Game" },
+ { GameType.SpectralGames, "domain_dll.SpectralNormSingle.Game" },
  { GameType.NormalForms, "domain_dll.NGame.Game" },
  { GameType.KNucleotide, "domain_dll.nukleotide.Game" },
  { GameType.RegexDna, "domain_dll.RegexDna.Game" },
