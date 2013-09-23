@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "test_mono", "test_mono\test_mono.csproj", "{76EFD7BE-D7CB-477F-9D8E-2AB79EF6BB22}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "domain_dll", "domain_dll\domain_dll.csproj", "{479ADF75-2372-4521-9A48-562410C37A88}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{479ADF75-2372-4521-9A48-562410C37A88}.Debug|x86.ActiveCfg = Debug|x86
+		{479ADF75-2372-4521-9A48-562410C37A88}.Debug|x86.Build.0 = Debug|x86
+		{479ADF75-2372-4521-9A48-562410C37A88}.Release|x86.ActiveCfg = Release|x86
+		{479ADF75-2372-4521-9A48-562410C37A88}.Release|x86.Build.0 = Release|x86
+		{76EFD7BE-D7CB-477F-9D8E-2AB79EF6BB22}.Debug|x86.ActiveCfg = Debug|x86
+		{76EFD7BE-D7CB-477F-9D8E-2AB79EF6BB22}.Debug|x86.Build.0 = Debug|x86
+		{76EFD7BE-D7CB-477F-9D8E-2AB79EF6BB22}.Release|x86.ActiveCfg = Release|x86
+		{76EFD7BE-D7CB-477F-9D8E-2AB79EF6BB22}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = test_mono\test_mono.csproj
+	EndGlobalSection
+EndGlobal
