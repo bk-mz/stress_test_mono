@@ -37,11 +37,11 @@
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ngame.cs" />
-    <Compile Include="spectral_games.cs" />
     <Compile Include="redux.cs" />
     <Compile Include="nukleotide.cs" />
     <Compile Include="regex_dna.cs" />
     <Compile Include="spectral_norm_single_threaded.cs" />
+    <Compile Include="spectral_norm.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>

@@ -7,20 +7,18 @@ namespace domain_dll.SpectralNormSingle
  
    contributed by Isaac Gouy 
 */
-	using System;
-
 	[Serializable]
-	class Game
+	public class Game
 	{
 		public static void Main (String[] args)
 		{
 			int n = 100;
 			if (args.Length > 0)
 				n = Int32.Parse (args [0]);
-			Run(n);
+			new Game().Run(n);
 		}
 
-		static void Run (int n)
+		public void Run (int n)
 		{
 			var res = new Game ().Approximate (n);
 			Console.WriteLine ("{0:f9}", res);
