@@ -74,7 +74,7 @@ namespace test_mono
 			try {
 				RunThreadPoolTask (type);
 			} catch (Exception ex) {
-				Console.WriteLine ("Exception! Too bad");
+				Console.WriteLine ("Exception! Too bad. {0}" + ex.Message);
 			}
 		}
 
