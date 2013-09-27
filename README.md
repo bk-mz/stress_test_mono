@@ -11,7 +11,7 @@ Every worker class is loaded in separate domain.
 
 Exceptions are thrown, too.
 
-= Usage =
+## Usage
 
 `make` to run mono-boehm.
 
